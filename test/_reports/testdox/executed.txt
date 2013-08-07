@@ -1,0 +1,27 @@
+WPBaseTest\Controller\AbstractController
+ [x] test verifica se classe existe
+ [x] test verifica se exite o atributo entity
+ [x] test verifica se existe os metodos necessarios
+ [x] test verifica se index esta acessivel
+ [x] test verifica se add esta acessivel
+ [x] test verifica se edit esta acessivel
+ [x] test verifica se remove esta acessivel
+ [ ] test verifica se metodo getEntity
+
+WPBaseTest\Model\WPBaseTable
+ [x] Classe exite
+ [x] Atributos
+ [x] Verifica se existes os metodos esperados
+ [x] test verifica se esta inserindo no banco de dados
+ [x] test verifica se esta alterando no banco de dados
+ [x] test verifica se retorna false caso nao encontre resitro para altera
+ [x] test verifica se deleta um registro
+ [x] test verifica se retorna false caso nao poder deletar
+ [x] test verifica se retorna false caso nao encontre registro
+ [x] test verifica se esta retornando registro especifico
+ [x] test verifica se esta retornando todos os registros
+ [x] test verifica se esta retornando paginacao de registros
+ [x] test verifica se retorna um exception de findBy
+ [x] test verifica se retorna um exception de save caso nao passe por parametro um objeto
+ [x] test verifica se retorna um exception de remove
+
