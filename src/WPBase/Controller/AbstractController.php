@@ -18,17 +18,17 @@ class AbstractController extends AbstractActionController
         return new ViewModel(array('data' => $data));
     }
 
-    public function addAction()
+    public function novoAction()
     {
         return new ViewModel();
     }
 
-    public function editAction()
+    public function editarAction()
     {
         return new ViewModel();
     }
 
-    public function removeAction()
+    public function removerAction()
     {
         return new ViewModel();
     }
